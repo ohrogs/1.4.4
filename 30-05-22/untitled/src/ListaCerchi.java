@@ -1,16 +1,16 @@
-public class ListaRect {
-    private Rettangolo[] elenco = null;
+public class ListaCerchi {
+    private Cerchio[] elenco = null;
     public int dim;
 
-    public ListaRect()
+    public ListaCerchi()
     {
-        elenco = new Rettangolo[999];
+        elenco = new Cerchio[999];
         dim=0;
     }
 
-    public void append(Rettangolo r)
+    public void append(Cerchio c)
     {
-        elenco[dim++] = r;
+        elenco[dim++] = c;
     }
 
     public void printAll()
@@ -21,4 +21,5 @@ public class ListaRect {
             elenco[i].printAll();
         }
     }
+
 }
