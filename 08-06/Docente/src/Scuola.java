@@ -79,4 +79,29 @@ public class Scuola {
         }
         return aux;
     }
+
+    public int contaSopraMedia()
+    {
+        int conta = 0;
+        for (int i = 0; i < curr; i++){
+            if(Elenco[i].getEta() > getMediaEta())
+            {
+                conta++;
+            }
+        }
+        return conta;
+    }
+
+    public float getMediaEta()
+    {
+        if(curr == 1)
+        {
+            return Elenco[0].getEta();
+        }
+        float sum = 0;
+        for (int i = 0; i < curr; i++){
+            sum += (float)Elenco[i].getEta();
+        }
+        return sum/((float)curr-1);
+    }
 }
