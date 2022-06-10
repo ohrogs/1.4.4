@@ -15,6 +15,7 @@ public class Main {
             switch (choice)
             {
                 case 1:
+                    flush(50);
                     if(natta.append(inputDocente()))
                     {
                         System.out.println("tutto ok");
@@ -25,15 +26,18 @@ public class Main {
                     }
                     break;
                 case 2:
+                    flush(50);
                     for(int i = 0; i < natta.curr; i++)
                     {
                         System.out.println(natta.getInfo(i));
                     }
                     break;
                 case 3:
+                    flush(50);
                     System.out.println(natta.piuVecchio().getDinfo());
                     break;
                 case 4:
+                    flush(50);
                     if(natta.append(new Docente()))
                     {
                         System.out.println("tutto ok");
@@ -44,14 +48,17 @@ public class Main {
                     }
                     break;
                 case 5:
+                    flush(50);
                     System.out.println("Media etá= " + natta.getMediaEta() + " Percentuale superiore alla media" +
                             "= " + natta.percEta() + "%");
                     break;
                 case 6:
+                    flush(50);
                     String i = getString("Inserisca la matricola");
                     System.out.println(natta.fetch(i).getDinfo());
                     break;
                 case 7:
+                    flush(50);
                     ScuolaTest(natta, 10);
                     break;
                 default:
@@ -118,5 +125,13 @@ public class Main {
         System.out.print("Inserisca eta>");
         int eta = keyb.nextInt();
         return new Docente(nome, cognome, matricola, eta, new Materia(nomeMateria, descrMateria, ore));
+    }
+
+    private static void flush(int len)
+    {
+        for (int i = 0; i<len; i++)
+        {
+            System.out.println("");
+        }
     }
 }
