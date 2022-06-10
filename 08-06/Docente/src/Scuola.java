@@ -80,7 +80,7 @@ public class Scuola {
         return aux;
     }
 
-    public int contaSopraMedia()
+    private int contaSopraMedia()
     {
         int conta = 0;
         for (int i = 0; i < curr; i++){
@@ -103,5 +103,20 @@ public class Scuola {
             sum += (float)Elenco[i].getEta();
         }
         return sum/((float)curr-1);
+    }
+
+    public float percEta()
+    {
+        return ((float)contaSopraMedia()/((float)curr-1)*(float)100);
+    }
+
+    public Docente fetch(String matricola)
+    {
+        for(Docente x : Elenco)
+        {
+            if(x.getMatricola().equals(matricola))
+                return x;
+        }
+        return new Docente();
     }
 }
