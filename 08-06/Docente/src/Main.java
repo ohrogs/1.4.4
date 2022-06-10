@@ -50,7 +50,9 @@ public class Main {
                 case 5:
                     flush(50);
                     System.out.println("Media etá= " + natta.getMediaEta() + " Percentuale superiore alla media" +
-                            "= " + natta.percEta() + "%");
+                            "= " + natta.percEta() + "%, la lista dei piú vecchi:");
+
+
                     break;
                 case 6:
                     flush(50);
@@ -86,10 +88,10 @@ public class Main {
     {
         String defaultN = "Giacomo";
         String defaultC = "Pastorino";
-        Materia defaultM = new Materia("Materia scolastica", "Random", ThreadLocalRandom.current().nextInt(1, 998 + 1));
         for(int i = 0; i < dim; i++)
         {
-            scuola.append(new Docente(defaultN+i, defaultC+i, String.valueOf(ThreadLocalRandom.current().nextInt(0, i + 1)),ThreadLocalRandom.current().nextInt(0, 99 + 1), defaultM));
+            Materia defaultM = new Materia("Materia scolastica", "Random", ThreadLocalRandom.current().nextInt(1, 998 + 1));
+            scuola.append(new Docente(defaultN+i, defaultC+i, String.valueOf(i),ThreadLocalRandom.current().nextInt(26, 99 + 1), defaultM));
         }
     }
 
@@ -132,6 +134,14 @@ public class Main {
         for (int i = 0; i<len; i++)
         {
             System.out.println("");
+        }
+    }
+
+    private static void stampaElencoDocenti(Docente[] in)
+    {
+        for (Docente x : in)
+        {
+            System.out.println(x.getDinfo());
         }
     }
 }

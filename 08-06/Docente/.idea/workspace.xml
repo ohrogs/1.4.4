@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Docente:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="c68dd471-d573-4cbd-b8d6-84ab502fa8ff" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +36,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Mari Lorenzo/Documents/1.4.4/08-06/Docente"
+    "last_opened_file_path": "C:/Users/Mari Lorenzo/Documents/1.4.4/08-06/Docente",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RunManager">
@@ -58,7 +67,7 @@
       <updated>1654673078704</updated>
       <workItem from="1654673079925" duration="10470000" />
       <workItem from="1654685544235" duration="809000" />
-      <workItem from="1654846462527" duration="5330000" />
+      <workItem from="1654846462527" duration="10749000" />
     </task>
     <servers />
   </component>

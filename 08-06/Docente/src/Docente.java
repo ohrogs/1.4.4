@@ -7,7 +7,7 @@ public class Docente {
     {
         nome = "null";
         cognome = "null";
-        matricola = "null";
+        matricola = "Sembra che hai fatto una belinata?";
         eta = 1;
         materia = new Materia();
     }

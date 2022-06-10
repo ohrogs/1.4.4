@@ -1,6 +1,3 @@
-import javax.print.Doc;
-import java.util.Dictionary;
-
 public class Scuola {
     private Docente[] Elenco = null;
     public int curr;
@@ -66,7 +63,11 @@ public class Scuola {
 
     public Docente piuVecchio()
     {
-        if(curr == 1)
+        if(curr == 0)
+        {
+            return new Docente();
+        }
+        else if(curr == 1)
         {
             return Elenco[0];
         }
@@ -83,8 +84,9 @@ public class Scuola {
     private int contaSopraMedia()
     {
         int conta = 0;
+        float media = getMediaEta();
         for (int i = 0; i < curr; i++){
-            if(Elenco[i].getEta() > getMediaEta())
+            if(Elenco[i].getEta() > media)
             {
                 conta++;
             }
@@ -114,9 +116,27 @@ public class Scuola {
     {
         for(Docente x : Elenco)
         {
-            if(x.getMatricola().equals(matricola))
+            if (x == null)
+            return new Docente();
+
+            else if(x.getMatricola().equals(matricola))
                 return x;
         }
         return new Docente();
+    }
+
+    public Docente[] getListaVecchi()
+    {
+        Docente[] ret = new Docente[contaSopraMedia()];
+        float media = getMediaEta();
+        int contaDoc=0;
+        for(int i = 0; i < curr-1; i++)
+        {
+            if(Elenco[i].getEta() > media)
+            {
+                ret[contaDoc++]=Elenco[i];
+            }
+        }
+        return ret;
     }
 }
