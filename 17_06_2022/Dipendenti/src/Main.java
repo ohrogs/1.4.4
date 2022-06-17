@@ -18,6 +18,10 @@ public class Main {
                     cleanConsole(50);
                     break;
 
+                case 2:
+                    fill(LiguriaDigitale, 40);
+                    break;
+
                 case 3:
                     cleanConsole(50);
                     try
@@ -30,7 +34,7 @@ public class Main {
                     {
                         e.printStackTrace();
                     }
-                    cleanConsole(LiguriaDigitale.getN());
+                    //cleanConsole(LiguriaDigitale.getN());
                     break;
 
                 default:
@@ -124,6 +128,18 @@ public class Main {
         System.out.println("1 per il dirigente");
         System.out.println("2 per l'operaio");
         System.out.println("3 per l'impiegato");
+    }
+
+    private static void fill(Azienda a, int dim)
+    {
+        for(int i = 0; i < dim/3; i++)
+        {
+            a.append(new Operaio("nome"+i, "indirizzo a caso", 392, "tessile",7.0+i));
+            a.append(new Impiegato("nome"+2*i, "indirizzo a caso", 392, 7.0+i, "tessile"));
+            a.append(new Dirigente("nome"+3*i, "indirizzo a caso", 392, "eb",7.0+i));
+
+        }
+
     }
 
     private static void cleanConsole(int q)
