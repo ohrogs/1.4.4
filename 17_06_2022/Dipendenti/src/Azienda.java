@@ -29,49 +29,67 @@ public class Azienda {
         if (n==lista.length)
         {
             expand();
-            lista[n++]=o;
         }
-        else
-        {
-            lista[n++]=o;
-        }
+        lista[n++]=o;
     }
 
-    private void expand()
+    private void expand()//quanto arrivo a dimensione massima espando l'array a mano
     {
         Dipendente[] nuovo = new Dipendente[lista.length+10];
         int i=0;
-        for(Dipendente o : lista)
+        for(Dipendente o : lista)//ricopio il vecchio nel nuovo
         {
             nuovo[i++]=o;
         }
-        lista = null;
-        lista = nuovo;
+        lista = null;//libero la memoria del vecchio
+        lista = nuovo;//lista adesso é l'array nuovo
+    }
+
+    public void remove(String nome)
+    {
+        if(n==0)
+        {
+            System.err.println("Non c'é piú nessuno da rimuovere");
+        }
+        else if(!isIn(nome))
+        {
+            System.err.println("Nessun utente individuato con questo nome: " + nome);
+        }
+        else
+        {
+            for (int i = fetch(nome); i<lista.length-1; i++)
+            {
+                lista[i]=lista[i+1];
+            }
+            n--;
+        }
     }
 
     private boolean isIn(String d)
     {
-        for(Dipendente o : lista)
+        if(d == null)
+            return false;
+        for(int i = 0; i < n; i++)
         {
-            if(o.nome.equals(d))
+            if(lista[i].nome.equals(d))
                 return true;
         }
         return false;
     }
 
-    private int fetch(String name)
+    private int fetch(String name)//restituisce la pos di un dato nome
     {
         for (int i = 0; i < n; i++)
         {
             if(lista[i].nome.equals(name))
                 return i;
         }
-        return -1;
+        return -1;//impossibile raggiungere questo return
     }
 
     public String getInfo(String nome)
     {
-        if(!isIn(nome))
+        if(!isIn(nome))//se non c'e comunica il fallimento della ricerca
         {
             return "Nessun risultato";
         }
@@ -82,7 +100,7 @@ public class Azienda {
     {
         if(p >=  n)
         {
-            throw new wrongIndex("Grandissima belinata");
+            throw new wrongIndex("É stato dato un indice inesistente");
         }
         return lista[p].getInfo();
     }

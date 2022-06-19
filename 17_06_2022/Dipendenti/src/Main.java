@@ -2,9 +2,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Azienda LiguriaDigitale = createAzienda(10);
-        boolean check = true;
         Scanner keyb = new Scanner(System.in);
+        System.out.println("Inserire grandezza dell' azienda");
+        int grandezza = keyb.nextInt();
+        Azienda LiguriaDigitale = createAzienda(grandezza);
+        boolean check = true;
+
         do
         {
             printMenu();
@@ -18,8 +21,15 @@ public class Main {
                     cleanConsole(50);
                     break;
 
+                case 4:
+                    fill(LiguriaDigitale, 10);
+                    break;
+
                 case 2:
-                    fill(LiguriaDigitale, 40);
+
+                    System.out.println("Inserisca nome cognome di chi desidera rimuovere");
+                    keyb.nextLine();
+                    LiguriaDigitale.remove(keyb.nextLine());
                     break;
 
                 case 3:
@@ -55,7 +65,8 @@ public class Main {
         catch (Exception e)
         {
             e.printStackTrace();
-            return null;
+            System.err.println("Azienda creata con impostazioni di default");
+            return new Azienda();
         }
         /*catch (Exception e)
         {
@@ -109,7 +120,7 @@ public class Main {
                     break;
 
                 default:
-                    System.err.println("hai fatto una belinata");
+                    System.err.println("Inserisca un numero corretto");
                     break;
             }
         }while (check);
@@ -118,7 +129,7 @@ public class Main {
     private static void printMenu()
     {
         System.out.println("1 per aggiungere un dipendente");
-        //System.out.println("2 per rimuovere un dipendente");
+        System.out.println("2 per rimuovere un dipendente");
         System.out.println("3 per stampare tutto");
         System.out.println("0 o altro per uscire");
     }
@@ -132,11 +143,11 @@ public class Main {
 
     private static void fill(Azienda a, int dim)
     {
-        for(int i = 0; i < dim/3; i++)
+        for(int i = 1; i < dim/3; i++)
         {
             a.append(new Operaio("nome"+i, "indirizzo a caso", 392, "tessile",7.0+i));
-            a.append(new Impiegato("nome"+2*i, "indirizzo a caso", 392, 7.0+i, "tessile"));
-            a.append(new Dirigente("nome"+3*i, "indirizzo a caso", 392, "eb",7.0+i));
+            a.append(new Impiegato("nome"+10*i, "indirizzo a caso", 392, 7.0+i, "tessile"));
+            a.append(new Dirigente("nome"+100*i, "indirizzo a caso", 392, "eb",7.0+i));
 
         }
 
