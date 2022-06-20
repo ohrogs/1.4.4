@@ -45,6 +45,18 @@ public class Azienda {
         lista = nuovo;//lista adesso é l'array nuovo
     }
 
+    private void shrink()
+    {
+        Dipendente[] nuovo = new Dipendente[lista.length-10];
+        //int i=0;
+        for(int i=0; i<n; i++)//ricopio il vecchio nel nuovo
+        {
+            nuovo[i]=lista[i];
+        }
+        lista = null;//libero la memoria del vecchio
+        lista = nuovo;//lista adesso é l'array nuovo
+    }
+
     public void remove(String nome)
     {
         if(n==0)
@@ -62,6 +74,8 @@ public class Azienda {
                 lista[i]=lista[i+1];
             }
             n--;
+            if((lista.length-n)>10)//per esempio se lenght =20 ma n = 9 20-9 = 11 quindi sto sprecando spazio
+                shrink();
         }
     }
 
