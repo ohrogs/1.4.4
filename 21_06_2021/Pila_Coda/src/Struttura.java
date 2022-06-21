@@ -1,6 +1,7 @@
 import java.util.LinkedList;
 
-public class Struttura {
+public class Struttura {//Siccome mi sono accorto di usare la stessa lista in tutte e due le classe
+    //é venuto naturale pensare di rendere la pila e la coda ereditiere
     protected LinkedList<Object> struttura;
 
     public Struttura()
