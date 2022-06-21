@@ -118,4 +118,22 @@ public class Azienda {
         }
         return lista[p].getInfo();
     }
+
+    public int[] contaTipo()
+    {
+        int[] conta = {n, 0, 0, 0};
+        for(int i = 0; i<n; i++)
+        {
+            //System.err.println(lista[i].getClass().getSimpleName());
+            if (lista[i].getClass().getSimpleName().equals("Dirigente"))
+                conta[1]++;
+            else if (lista[i].getClass().getSimpleName().equals("Operaio"))
+                conta[2]++;
+            else if (lista[i].getClass().getSimpleName().equals("Impiegato"))
+                conta[3]++;
+            /*else if(lista[i].getClass().getSimpleName().equals("Dipendente"))
+                conta[4]++;*/
+        }
+        return conta;
+    }
 }

@@ -21,7 +21,7 @@ public class Main {
                     cleanConsole(50);
                     break;
 
-                case 4:
+                case 99:
                     fill(LiguriaDigitale, 10);
                     break;
 
@@ -45,6 +45,30 @@ public class Main {
                         e.printStackTrace();
                     }
                     //cleanConsole(LiguriaDigitale.getN());
+                    break;
+                case 4:
+                    int[] result = LiguriaDigitale.contaTipo();
+
+                    if (result[0] == 1)
+                        System.out.println("C'é " + result[0] + " Dipendente");
+                    else
+                        System.out.println("Ci sono " + result[0] + " Dipendenti totali");
+
+                    if (result[1] == 1)
+                        System.out.println("C'é " + result[1] + " Dirigente");
+                    else
+                        System.out.println("Ci sono " + result[1] + " Dirigenti totali");
+
+                    if (result[2] == 1)
+                        System.out.println("C'é " + result[2] + " Operaio");
+                    else
+                        System.out.println("Ci sono " + result[2] + " Operai totali");
+
+                    if (result[3] == 1)
+                        System.out.println("C'é " + result[3] + " Impiegato");
+                    else
+                        System.out.println("Ci sono " + result[3] + " Impiegati totali");
+
                     break;
 
                 default:
@@ -131,6 +155,7 @@ public class Main {
         System.out.println("1 per aggiungere un dipendente");
         System.out.println("2 per rimuovere un dipendente");
         System.out.println("3 per stampare tutto");
+        System.out.println("4 per stampare un resoconto dei numeri di assunzione dell'azienda");
         System.out.println("0 o altro per uscire");
     }
 
