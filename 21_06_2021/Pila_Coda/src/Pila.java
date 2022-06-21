@@ -1,16 +1,21 @@
-import java.util.ArrayList;
+import java.util.LinkedList;
 
-public class Pila {
-    public ArrayList<Object> pila;
+public class Pila extends Struttura {
 
-    public void append(Object o)
-    {
-        pila.add(o);
+
+    public Pila() {
+        struttura = new LinkedList<Object>();
     }
 
-    public Object remove(int pos)
+    public void push(Object o)
     {
-        if(!pila.contains())
-        return pila.remove(pos);
+        struttura.addFirst(o);
     }
+
+    public Object pop()
+    {
+        return struttura.removeFirst();
+    }
+
+
 }
