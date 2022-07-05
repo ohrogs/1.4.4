@@ -1,74 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c65e1afa-5ebf-4704-81b3-bcd25b12b871" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../08-06/Docente/.idea/artifacts/Docente_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../08-06/Docente/.idea/artifacts/Docente_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../08-06/Docente/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../08-06/Docente/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../08-06/Docente/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../08-06/Docente/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../08-06/Docente/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../08-06/Docente/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../08-06/Docente/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../08-06/Docente/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../08-06/Docente/Docente.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../08-06/Docente/Docente.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../08-06/Docente/out/production/Docente/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../08-06/Docente/out/production/Docente/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../08-06/Docente/src/Docente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../08-06/Docente/src/Docente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../08-06/Docente/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../08-06/Docente/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../08-06/Docente/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../08-06/Docente/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../08-06/Docente/src/Materia.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../08-06/Docente/src/Materia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../08-06/Docente/src/Scuola.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../08-06/Docente/src/Scuola.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/.idea/artifacts/Dipendenti_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/.idea/artifacts/Dipendenti_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/Dipendenti.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/Dipendenti.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/out/production/Dipendenti/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/out/production/Dipendenti/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/src/Azienda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/src/Azienda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/src/Dipendente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/src/Dipendente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/src/Dirigente.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/src/Dirigente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/src/Impiegato.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/src/Impiegato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/src/Operaio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/src/Operaio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/src/wrongIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Dipendenti/src/wrongIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Garage/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Garage/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Garage/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Garage/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Garage/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Garage/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Garage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Garage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Garage/Garage.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Garage/Garage.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Garage/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Garage/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/Garage/src/Veicolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/Garage/src/Veicolo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/untitled/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/untitled/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/untitled/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/untitled/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/untitled/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/untitled/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/untitled/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/untitled/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/untitled/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/untitled/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/untitled/src/Stack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../17_06_2022/untitled/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../17_06_2022/untitled/untitled.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pila_Coda.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Pila_Coda.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pila_Coda/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pila_Coda/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Coda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pila.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Struttura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Struttura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../30-05-22/libro/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../30-05-22/libro/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../30-05-22/libro/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../30-05-22/libro/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../30-05-22/libro/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../30-05-22/libro/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../30-05-22/libro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../30-05-22/libro/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../30-05-22/libro/libro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../30-05-22/libro/libro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../30-05-22/untitled/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../30-05-22/untitled/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../30-05-22/untitled/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../30-05-22/untitled/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../30-05-22/untitled/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../30-05-22/untitled/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../30-05-22/untitled/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../30-05-22/untitled/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../30-05-22/untitled/src/Cerchio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../30-05-22/untitled/src/Cerchio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../30-05-22/untitled/src/ListaCerchi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../30-05-22/untitled/src/ListaCerchi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../30-05-22/untitled/src/ListaRect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../30-05-22/untitled/src/ListaRect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../30-05-22/untitled/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../30-05-22/untitled/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../30-05-22/untitled/src/Rettangolo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../30-05-22/untitled/src/Rettangolo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../30-05-22/untitled/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../30-05-22/untitled/untitled.iml" afterDir="false" />
-    </list>
+    <list default="true" id="c65e1afa-5ebf-4704-81b3-bcd25b12b871" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,14 +28,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/Documenti/1-ITS/1.4.4/21_06_2021/Pila_Coda&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Mari Lorenzo/Documents/1.4.4/17_06_2022/Dipendenti"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -128,6 +61,7 @@
       <workItem from="1655807522787" duration="821000" />
       <workItem from="1655826504839" duration="2834000" />
       <workItem from="1655835493244" duration="2561000" />
+      <workItem from="1657006871004" duration="31000" />
     </task>
     <servers />
   </component>
