@@ -7,9 +7,16 @@ public class Main {
         PrintMostra(mostra);
         ArrayList<Opera> antiche = mostra.Antiche();
         PrintAntiche(antiche);
+        PrintDipinti(mostra.DipintiOrdinati());
 
     }
 
+    private static void PrintDipinti(ArrayList<Dipinti> m)
+    {
+        for (Dipinti a: m) {
+            System.out.println(a);
+        }
+    }
     private static void PrintAntiche(ArrayList<Opera> m)
     {
         for (Opera a: m) {

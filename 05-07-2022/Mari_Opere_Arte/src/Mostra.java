@@ -30,4 +30,13 @@ public class Mostra {
         }
         return ret;
     }
+
+    public ArrayList<Dipinti> DipintiOrdinati()
+    {
+        ArrayList<Dipinti> ret = new ArrayList<Dipinti>();
+        for (Opera a:elenco)
+            if(a instanceof Dipinti)
+                ret.add((Dipinti) a);
+        return ret;
+    }
 }
